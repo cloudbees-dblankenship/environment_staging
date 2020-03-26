@@ -32,7 +32,7 @@ spec:
       serviceAccountName: cjoc
       containers:
       - name: cloudbees-dblankenship
-        image: gcr.io/core-workshop/helloworld-nodejs:cloudbees-dblankenship-5
+        image: gcr.io/core-workshop/helloworld-nodejs:cloudbees-dblankenship-6
         resources:
           requests:
             memory: "100Mi"
